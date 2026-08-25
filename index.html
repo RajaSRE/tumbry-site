@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tumbry — A cosmic merge puzzle</title>
+<meta name="description" content="Tumbry is a merge puzzle with a universe to collect. Drop tiles, trigger chain reactions, and forge worlds from stardust to quasars. No ads, no tracking, fully offline.">
+<style>
+  :root{
+    --bg:#fbfaf7; --card:#ffffff; --text:#1b1b1f; --muted:#6a6a70; --line:#ece7dc;
+    --a1:#c8891b; --a2:#8a63d6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0e1116; --card:#181c23; --text:#e8e8ea; --muted:#9da4af; --line:#262d37;
+           --a1:#f7b955; --a2:#b48cf0; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+       -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:640px;margin:0 auto;padding:56px 22px 72px;}
+  .mark{font-size:44px;font-weight:800;letter-spacing:-.5px;margin:0 0 6px;}
+  .mark .o{background:linear-gradient(135deg,var(--a1),var(--a2));
+           -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .tag{color:var(--muted);margin:0 0 40px;font-size:17px;}
+  h2{font-size:18px;margin:36px 0 10px;}
+  p{margin:0 0 14px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;}
+  a{color:var(--a1);text-decoration:none;font-weight:600;}
+  a:hover{text-decoration:underline;}
+  ul{margin:0 0 14px;padding-left:20px;} li{margin:6px 0;}
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="mark">Tumbr<span class="o">y</span></h1>
+  <p class="tag">A cosmic merge puzzle.</p>
+
+  <p>Drop a tile into any column. Matching tiles merge — and a merge can trigger the next,
+     and the next, in a chain reaction that blooms across the board. Every tile you forge is
+     a world: stardust becomes rock, rock becomes planets, planets ignite into stars, stars
+     collapse into galaxies, black holes, and quasars.</p>
+
+  <ul>
+    <li>One endless board — open the app and you're already playing.</li>
+    <li>Satisfying chain-reaction combos with a real sense of payoff.</li>
+    <li>A Codex of worlds to discover and complete.</li>
+    <li>Your run saves automatically and resumes anytime.</li>
+    <li>No ads. No tracking. Works offline — your data never leaves your device.</li>
+  </ul>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p style="margin:0">Questions, bugs, or ideas? Email
+       <a href="mailto:tumbryapp@gmail.com">tumbryapp@gmail.com</a>, or read the
+       <a href="support.html">full support page</a>.</p>
+    <p style="margin:10px 0 0;color:var(--muted);font-size:14px">
+       We're a small studio and usually reply within a couple of days.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Tumbry collects nothing at all — no account, no analytics, no tracking.
+     Read the <a href="privacy.html">full privacy policy</a>.</p>
+
+  <footer>
+    <span>© 2026 Maran Studios</span>
+    <span><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a></span>
+  </footer>
+</div>
+</body>
+</html>
